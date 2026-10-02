@@ -1,0 +1,34 @@
+.elegance-purchase-dock{position:fixed;z-index:2147483000;right:max(14px,env(safe-area-inset-right));bottom:max(14px,env(safe-area-inset-bottom));display:grid;grid-template-columns:1fr 1fr;gap:7px;width:min(286px,calc(100vw - 28px));padding:8px;border:1px solid rgba(255,255,255,.34);border-radius:18px;background:linear-gradient(145deg,rgba(28,23,30,.68),rgba(18,14,20,.5));box-shadow:0 18px 48px rgba(0,0,0,.3),inset 0 1px 0 rgba(255,255,255,.13);color:#fff;font-family:Inter,system-ui,sans-serif;-webkit-backdrop-filter:blur(24px) saturate(1.35);backdrop-filter:blur(24px) saturate(1.35)}
+.elegance-purchase-meta{grid-column:1/-1;min-width:0;padding:3px 7px 2px}
+.elegance-purchase-meta strong{display:block;overflow:hidden;font-family:Georgia,serif;font-size:15px;font-weight:500;line-height:1.15;text-overflow:ellipsis;white-space:nowrap}
+.elegance-purchase-dock button,.elegance-purchase-dock a{display:flex;min-height:38px;align-items:center;justify-content:center;border:1px solid rgba(255,255,255,.24);border-radius:11px;padding:0 10px;color:#fff;font:800 11px/1 Inter,system-ui,sans-serif;text-decoration:none;white-space:nowrap;cursor:pointer}
+.elegance-purchase-dock button{background:rgba(255,255,255,.1)}
+.elegance-purchase-dock a{border-color:rgba(241,219,164,.82);background:rgba(241,219,164,.92);color:#241a14}
+.elegance-all-samples{display:flex;min-height:52px;align-items:center;justify-content:center;margin-top:8px;border:1px solid rgba(91,67,39,.22);border-radius:15px;background:#fff;color:#302419;font:800 13px/1.2 Inter,system-ui,sans-serif;text-decoration:none}
+.elegance-all-samples:hover{background:#f6efe4}
+.elegance-gate-open{overflow:hidden!important}
+.elegance-entry-gate{position:fixed;z-index:2147483600;inset:0;overflow:auto;background:#f3eadc;color:#302219;padding:clamp(28px,5vw,64px);font-family:Inter,system-ui,sans-serif}
+.elegance-entry-gate header{max-width:780px;margin:0 auto 34px;text-align:center}
+.elegance-entry-gate header>p{margin:0;color:#765b49;font-size:11px;font-weight:800;letter-spacing:.24em}
+.elegance-entry-gate h1{margin:10px 0 0;font:500 clamp(52px,8vw,92px)/.95 Georgia,serif}
+.elegance-entry-gate h1 em{display:block;color:#9a6966;font-weight:400}
+.elegance-entry-gate header>span{display:block;margin:18px 0;color:#a27f54;font-size:22px}
+.elegance-entry-gate h2{margin:0;font:400 clamp(21px,3vw,31px)/1.25 Georgia,serif}
+.elegance-entry-gate header>small{display:block;margin-top:12px;color:#725d4e;font-size:13px}
+.elegance-entry-options{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;max-width:1220px;margin:0 auto}
+.elegance-entry-options button{position:relative;min-width:0;aspect-ratio:2/3;overflow:hidden;border:0;border-radius:24px;padding:0;background:#261b18;box-shadow:0 18px 50px rgba(57,38,26,.18);cursor:pointer}
+.elegance-entry-options img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .45s ease}
+.elegance-entry-options button:hover img{transform:scale(1.035)}
+.elegance-entry-options button>span{position:absolute;inset:auto 0 0;display:block;padding:60px 18px 20px;background:linear-gradient(transparent,rgba(22,14,12,.94));color:#fff;text-align:left}
+.elegance-entry-options strong{display:block;font:500 28px/1 Georgia,serif}.elegance-entry-options small{display:block;margin-top:8px;color:rgba(255,255,255,.72);font-size:10px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.elegance-entry-themes{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;max-width:1220px;margin:0 auto}
+.elegance-entry-themes a{display:flex;min-width:0;flex-direction:column;border:1px solid rgba(79,52,34,.16);border-radius:22px;padding:9px 9px 17px;background:#fffaf2;box-shadow:0 15px 45px rgba(57,38,26,.12);color:#302219;text-decoration:none;transition:transform .25s ease}
+.elegance-entry-themes a:hover{transform:translateY(-5px)}
+.elegance-entry-themes .design-mini{isolation:isolate;width:100%;height:auto;aspect-ratio:3/4;margin:0 0 16px;overflow:hidden;border:0;border-radius:15px;background:#e8dfd2;box-shadow:none}
+.elegance-entry-themes .design-mini>img{display:block;width:100%;height:100%;padding:0;border:0;border-radius:0;filter:none;object-fit:cover;object-position:center}
+.elegance-entry-themes a>.elegance-theme-name{padding:0 10px;font:500 23px/1.05 Georgia,serif}
+.elegance-entry-themes a>small{margin-top:10px;padding:0 10px;color:#775e4b;font-size:9px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.elegance-change-religion{grid-column:1/-1;justify-self:center;border:0;background:transparent;color:#624d3f;font-weight:800;cursor:pointer}
+.elegance-entry-back{display:flex;width:max-content;margin:30px auto 0;color:#5f4a3e;font-size:12px;font-weight:800;text-decoration:none}
+@media(max-width:520px){.elegance-purchase-dock{right:max(10px,env(safe-area-inset-right));bottom:max(10px,env(safe-area-inset-bottom));width:min(248px,calc(100vw - 20px));padding:7px;border-radius:16px}.elegance-purchase-meta{padding:2px 6px 1px}.elegance-purchase-meta strong{font-size:14px}.elegance-purchase-dock button,.elegance-purchase-dock a{min-height:36px;padding:0 8px;font-size:10px}}
+@media(max-width:800px){.elegance-entry-gate{padding:28px 14px 40px}.elegance-entry-options{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.elegance-entry-options button{border-radius:18px}.elegance-entry-options strong{font-size:23px}.elegance-themes-open header{margin-bottom:20px}.elegance-themes-open header>p,.elegance-themes-open header>h1,.elegance-themes-open header>span{display:none}.elegance-themes-open header h2{font-size:23px}.elegance-entry-themes{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.elegance-entry-themes a{padding:7px 7px 14px;border-radius:16px}.elegance-entry-themes .design-mini{width:100%;height:auto;aspect-ratio:3/4;margin:0 0 12px;border-radius:12px}.elegance-entry-themes a>.elegance-theme-name{padding:0 5px;font-size:18px}.elegance-entry-themes a>small{margin-top:7px;padding:0 5px;font-size:8px}.elegance-change-religion{grid-column:1/-1;padding:12px}.elegance-gate-open{overflow:hidden}}
